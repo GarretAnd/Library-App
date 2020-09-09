@@ -1,0 +1,326 @@
+body, html {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to bottom, #87e0fd 0%,#28c94b 40%,#1a6983 100%);
+    height: 100%;
+    background-image: url('./imgs/lib.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.maker {
+    background-color: white;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.book-nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-links {
+    background-color: #6b2737;
+}
+
+a:link {
+    color: black;
+}
+  
+a:visited {
+    color: black;
+}
+  
+a:hover {
+    color: #E4FDE1;
+}
+  
+a:active {
+    color: black;
+}
+
+.go-away {
+    display: none;
+}
+
+.auth {
+    font-size: 20px;
+}
+
+.authStuff {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vw;
+    padding-left: 10vw;
+    font-family: 'Lobster';
+}
+
+.Instru1 {
+    font-size: 30px;
+    width: 30vw;
+    margin-top: 10vw;
+}
+
+.Instru2 {
+    font-size: 30px;
+    width: 30vw;
+    margin-top: 10vw;
+}
+
+.Instru3 {
+    font-size: 30px;
+    width: 30vw;
+    margin-top: 10vw;
+}
+
+.sign-box {
+    background-color: transparent;
+    display: flex;
+    height: 60vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.organizer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.enter-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.enter-passoword {
+    display: flex;
+    flex-direction: column;
+}
+
+.enter-userName {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-card {
+    background-color: white;
+    font-size: 20px;
+    width: 40%;
+}
+
+.Sbutton {
+    background-color: #6b2737; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+.display-route {
+    background-color: white;
+    background-image: url('./imgs/book.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    height: 80vh;
+    width: 80vw;
+}
+
+.dict-display {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-display {
+    display: flex;
+    flex-direction: row;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    height: 5vh;
+}
+
+.nav-display {
+    margin: 0;
+    height: 60vh;
+    width: 40vw;
+}
+
+.page {
+    background-color: transparent;
+    font-family: 'Lobster';
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 90vh;
+    margin-top: -3vh;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.logo-edit {
+    height: 10vh;
+}
+
+.cover-photo {
+    height: 30vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.cover-photo-edit {
+    height: 10vh;
+}
+
+.story {
+    height: 15vh;
+    width: 30vw;
+    margin-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    overflow-y: scroll;
+}
+
+.story-edit {
+    height: 20vh;
+}
+
+.edit-area {
+    width: 25vw;
+    height: 18vh;
+    resize: none;
+}
+
+.footer {
+    margin-top: 5vh;
+}
+
+.footer-edit {
+    margin-top: 5vh;
+    height: 10vh;
+}
+
+.edit {
+    margin-bottom: 5vh;
+    font-size: 50px;
+}
+
+.delete-page {
+    height: 10vh;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 5vh;
+}
+
+.index {
+    display: flex;
+    margin-top: 10vh;
+    font-family: 'Lobster';
+    font-size: 30px;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border:none;
+    background-color:transparent;
+    outline:none;
+ }
+
+/*Button Generated here: https://www.bestcssbuttongenerator.com/#/10*/
+
+.deleteButton {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.deleteButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+
+.deleteButton:active {
+	position:relative;
+	top:1px;
+}
+
+.error {
+    margin-top: 30vh;
+    margin-left: 30vw;
+    width: 270px;
+    font-size: 40px;
+    background-color: red;
+}
+
+.picker {
+    padding-left: 10vw;
+    font-family: 'Lobster';
+    font-size: 40px;
+}
+
+.hello {
+    background-color: transparent;
+    color: white;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    font-family: 'Lobster';
+    font-size: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro {
+    margin-top: 20vh;
+}
+
+.midtro {
+    margin-top: 5vh;
+}
+
+.outro {
+    margin-top: 5vh;
+}
